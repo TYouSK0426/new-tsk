@@ -2,17 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     let folderIndex = 1;
 
     function playAudio(file) {
-<<<<<<< HEAD
-        const audio = new Audio(`blob/main/audio${folderIndex}/${file}`);
-        console.log(`Playing: blob/main/audio${folderIndex}/${file}`);
+        const audio = new Audio(`audio${folderIndex}/${file}`);
+        console.log(`Playing: audio${folderIndex}/${file}`);
         audio.play().catch(error => {
             console.error("Error playing audio:", error);
         });
-=======
-        const audio = new Audio(`my_music_app/blob/main/audio${folderIndex}/${file}`);
-        console.log(`Playing: my_music_app/blob/main/audio${folderIndex}/${file}`);
-      
->>>>>>> ad1603807f9db9bce800102b5b4b82648b9aa838
     }
 
     document.getElementById('btn1').addEventListener('click', () => playAudio('b1.mp3'));
@@ -25,10 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById('btn8').addEventListener('click', () => {
         folderIndex = folderIndex % 6 + 1;
-<<<<<<< HEAD
-        console.log(`Switched to folder: blob/main/audio1${folderIndex}`);
-=======
-        console.log(`Switched to folder: my_music_app/blob/main/audio1${folderIndex}`);
->>>>>>> ad1603807f9db9bce800102b5b4b82648b9aa838
+        console.log(`Switched to folder: audio${folderIndex}`);
     });
 });
