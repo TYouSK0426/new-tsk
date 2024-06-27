@@ -1,4 +1,16 @@
 body {
+    font-family: Arial, sans-serif;
+}
+
+.folder-name {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px; /* 调整此值来向上移动文件夹名称 */
+    position: absolute;
+    width: 100%;
+    top: 40px; /* 调整此值来向上移动文件夹名称 */
+}
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
