@@ -14,13 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    document.getElementById('btn1').addEventListener('click', () => playAudio('b1.mp3'));
-    document.getElementById('btn2').addEventListener('click', () => playAudio('b2.mp3'));
-    document.getElementById('btn3').addEventListener('click', () => playAudio('b3.mp3'));
-    document.getElementById('btn4').addEventListener('click', () => playAudio('b4.mp3'));
-    document.getElementById('btn5').addEventListener('click', () => playAudio('b5.mp3'));
-    document.getElementById('btn6').addEventListener('click', () => playAudio('b6.mp3'));
-    document.getElementById('btn7').addEventListener('click', () => playAudio('b7.mp3'));
+    document.getElementById('btn1').addEventListener('click', () => playAudio('b1.Mp3'));
+    document.getElementById('btn2').addEventListener('click', () => playAudio('b2.Mp3'));
+    document.getElementById('btn3').addEventListener('click', () => playAudio('b3.Mp3'));
+    document.getElementById('btn4').addEventListener('click', () => playAudio('b4.Mp3'));
+    document.getElementById('btn5').addEventListener('click', () => playAudio('b5.Mp3'));
+    document.getElementById('btn6').addEventListener('click', () => playAudio('b6.Mp3'));
+    document.getElementById('btn7').addEventListener('click', () => playAudio('b7.Mp3'));
 
 
     document.getElementById('btn8').addEventListener('click', () => {
